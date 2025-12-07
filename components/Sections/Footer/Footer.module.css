@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    width: 100%;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.container > div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.container > div h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+.aboutUs > p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    font-weight: 600;
+}
+.contactUs > div  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.contactUs > div  > div {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: row-reverse;
+    align-items: center;
+    column-gap: 1rem;
+}
+.contactUs > div  > div i {
+    font-size: 24px;
+}
+.socialMedia > div {
+    display: flex;
+    column-gap: 1.5rem;
+}
+.socialMedia > div > a {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: #fff;
+}
+.instagram > i {
+    font-size: 24px;
+}
+.linkedin {
+    background: #0A66C2;
+    color: #fff;
+}
+.linkedin > i {
+    font-size: 24px;
+}
+.instagram:hover, .linkedin:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
