@@ -1,0 +1,873 @@
+@font-face {
+  font-family: 'sarv';
+  src:  url('fonts/sarv.eot?g5b8lt');
+  src:  url('fonts/sarv.eot?g5b8lt#iefix') format('embedded-opentype'),
+    url('fonts/sarv.ttf?g5b8lt') format('truetype'),
+    url('fonts/sarv.woff?g5b8lt') format('woff'),
+    url('fonts/sarv.svg?g5b8lt#sarv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sarv"], [class*=" sarv"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sarv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sarvactivity:before {
+  content: "\e900";
+}
+.sarvairplay:before {
+  content: "\e901";
+}
+.sarvalert-circle:before {
+  content: "\e902";
+}
+.sarvalert-octagon:before {
+  content: "\e903";
+}
+.sarvalert-triangle:before {
+  content: "\e904";
+}
+.sarvalign-center:before {
+  content: "\e905";
+}
+.sarvalign-justify:before {
+  content: "\e906";
+}
+.sarvalign-left:before {
+  content: "\e907";
+}
+.sarvalign-right:before {
+  content: "\e908";
+}
+.sarvanchor:before {
+  content: "\e909";
+}
+.sarvaperture:before {
+  content: "\e90a";
+}
+.sarvarchive:before {
+  content: "\e90b";
+}
+.sarvarrow-down:before {
+  content: "\e90c";
+}
+.sarvarrow-down-circle:before {
+  content: "\e90d";
+}
+.sarvarrow-down-left:before {
+  content: "\e90e";
+}
+.sarvarrow-down-right:before {
+  content: "\e90f";
+}
+.sarvarrow-left:before {
+  content: "\e910";
+}
+.sarvarrow-left-circle:before {
+  content: "\e911";
+}
+.sarvarrow-right:before {
+  content: "\e912";
+}
+.sarvarrow-right-circle:before {
+  content: "\e913";
+}
+.sarvarrow-up:before {
+  content: "\e914";
+}
+.sarvarrow-up-circle:before {
+  content: "\e915";
+}
+.sarvarrow-up-left:before {
+  content: "\e916";
+}
+.sarvarrow-up-right:before {
+  content: "\e917";
+}
+.sarvat-sign:before {
+  content: "\e918";
+}
+.sarvaward:before {
+  content: "\e919";
+}
+.sarvbar-chart:before {
+  content: "\e91a";
+}
+.sarvbar-chart-2:before {
+  content: "\e91b";
+}
+.sarvbattery:before {
+  content: "\e91c";
+}
+.sarvbattery-charging:before {
+  content: "\e91d";
+}
+.sarvbell:before {
+  content: "\e91e";
+}
+.sarvbell-off:before {
+  content: "\e91f";
+}
+.sarvbluetooth:before {
+  content: "\e920";
+}
+.sarvbold:before {
+  content: "\e921";
+}
+.sarvbook:before {
+  content: "\e922";
+}
+.sarvbook-open:before {
+  content: "\e923";
+}
+.sarvbookmark:before {
+  content: "\e924";
+}
+.sarvbox:before {
+  content: "\e925";
+}
+.sarvbriefcase:before {
+  content: "\e926";
+}
+.sarvcalendar:before {
+  content: "\e927";
+}
+.sarvcamera:before {
+  content: "\e928";
+}
+.sarvcamera-off:before {
+  content: "\e929";
+}
+.sarvcast:before {
+  content: "\e92a";
+}
+.sarvcheck:before {
+  content: "\e92b";
+}
+.sarvcheck-circle:before {
+  content: "\e92c";
+}
+.sarvcheck-square:before {
+  content: "\e92d";
+}
+.sarvchevron-down:before {
+  content: "\e92e";
+}
+.sarvchevron-left:before {
+  content: "\e92f";
+}
+.sarvchevron-right:before {
+  content: "\e930";
+}
+.sarvchevron-up:before {
+  content: "\e931";
+}
+.sarvchevrons-down:before {
+  content: "\e932";
+}
+.sarvchevrons-left:before {
+  content: "\e933";
+}
+.sarvchevrons-right:before {
+  content: "\e934";
+}
+.sarvchevrons-up:before {
+  content: "\e935";
+}
+.sarvchrome:before {
+  content: "\e936";
+}
+.sarvcircle:before {
+  content: "\e937";
+}
+.sarvclipboard:before {
+  content: "\e938";
+}
+.sarvclock:before {
+  content: "\e939";
+}
+.sarvcloud:before {
+  content: "\e93a";
+}
+.sarvcloud-drizzle:before {
+  content: "\e93b";
+}
+.sarvcloud-lightning:before {
+  content: "\e93c";
+}
+.sarvcloud-off:before {
+  content: "\e93d";
+}
+.sarvcloud-rain:before {
+  content: "\e93e";
+}
+.sarvcloud-snow:before {
+  content: "\e93f";
+}
+.sarvcode:before {
+  content: "\e940";
+}
+.sarvcodepen:before {
+  content: "\e941";
+}
+.sarvcodesandbox:before {
+  content: "\e942";
+}
+.sarvcoffee:before {
+  content: "\e943";
+}
+.sarvcolumns:before {
+  content: "\e944";
+}
+.sarvcommand:before {
+  content: "\e945";
+}
+.sarvcompass:before {
+  content: "\e946";
+}
+.sarvcopy:before {
+  content: "\e947";
+}
+.sarvcorner-down-left:before {
+  content: "\e948";
+}
+.sarvcorner-down-right:before {
+  content: "\e949";
+}
+.sarvcorner-left-down:before {
+  content: "\e94a";
+}
+.sarvcorner-left-up:before {
+  content: "\e94b";
+}
+.sarvcorner-right-down:before {
+  content: "\e94c";
+}
+.sarvcorner-right-up:before {
+  content: "\e94d";
+}
+.sarvcorner-up-left:before {
+  content: "\e94e";
+}
+.sarvcorner-up-right:before {
+  content: "\e94f";
+}
+.sarvcpu:before {
+  content: "\e950";
+}
+.sarvcredit-card:before {
+  content: "\e951";
+}
+.sarvcrop:before {
+  content: "\e952";
+}
+.sarvcrosshair:before {
+  content: "\e953";
+}
+.sarvdatabase:before {
+  content: "\e954";
+}
+.sarvdelete:before {
+  content: "\e955";
+}
+.sarvdisc:before {
+  content: "\e956";
+}
+.sarvdollar-sign:before {
+  content: "\e957";
+}
+.sarvdownload:before {
+  content: "\e958";
+}
+.sarvdownload-cloud:before {
+  content: "\e959";
+}
+.sarvdroplet:before {
+  content: "\e95a";
+}
+.sarvedit:before {
+  content: "\e95b";
+}
+.sarvedit-2:before {
+  content: "\e95c";
+}
+.sarvedit-3:before {
+  content: "\e95d";
+}
+.sarvexternal-link:before {
+  content: "\e95e";
+}
+.sarveye:before {
+  content: "\e95f";
+}
+.sarveye-off:before {
+  content: "\e960";
+}
+.sarvfacebook:before {
+  content: "\e961";
+}
+.sarvfast-forward:before {
+  content: "\e962";
+}
+.sarvfeather:before {
+  content: "\e963";
+}
+.sarvfigma:before {
+  content: "\e964";
+}
+.sarvfile:before {
+  content: "\e965";
+}
+.sarvfile-minus:before {
+  content: "\e966";
+}
+.sarvfile-plus:before {
+  content: "\e967";
+}
+.sarvfile-text:before {
+  content: "\e968";
+}
+.sarvfilm:before {
+  content: "\e969";
+}
+.sarvfilter:before {
+  content: "\e96a";
+}
+.sarvflag:before {
+  content: "\e96b";
+}
+.sarvfolder:before {
+  content: "\e96c";
+}
+.sarvfolder-minus:before {
+  content: "\e96d";
+}
+.sarvfolder-plus:before {
+  content: "\e96e";
+}
+.sarvframer:before {
+  content: "\e96f";
+}
+.sarvfrown:before {
+  content: "\e970";
+}
+.sarvgift:before {
+  content: "\e971";
+}
+.sarvgit-branch:before {
+  content: "\e972";
+}
+.sarvgit-commit:before {
+  content: "\e973";
+}
+.sarvgit-merge:before {
+  content: "\e974";
+}
+.sarvgit-pull-request:before {
+  content: "\e975";
+}
+.sarvgithub:before {
+  content: "\e976";
+}
+.sarvgitlab:before {
+  content: "\e977";
+}
+.sarvglobe:before {
+  content: "\e978";
+}
+.sarvgrid:before {
+  content: "\e979";
+}
+.sarvhard-drive:before {
+  content: "\e97a";
+}
+.sarvhash:before {
+  content: "\e97b";
+}
+.sarvheadphones:before {
+  content: "\e97c";
+}
+.sarvheart:before {
+  content: "\e97d";
+}
+.sarvhelp-circle:before {
+  content: "\e97e";
+}
+.sarvhexagon:before {
+  content: "\e97f";
+}
+.sarvhome:before {
+  content: "\e980";
+}
+.sarvimage:before {
+  content: "\e981";
+}
+.sarvinbox:before {
+  content: "\e982";
+}
+.sarvinfo:before {
+  content: "\e983";
+}
+.sarvinstagram:before {
+  content: "\e984";
+}
+.sarvitalic:before {
+  content: "\e985";
+}
+.sarvkey:before {
+  content: "\e986";
+}
+.sarvlayers:before {
+  content: "\e987";
+}
+.sarvlayout:before {
+  content: "\e988";
+}
+.sarvlife-buoy:before {
+  content: "\e989";
+}
+.sarvlink:before {
+  content: "\e98a";
+}
+.sarvlink-2:before {
+  content: "\e98b";
+}
+.sarvlinkedin:before {
+  content: "\e98c";
+}
+.sarvlist:before {
+  content: "\e98d";
+}
+.sarvloader:before {
+  content: "\e98e";
+}
+.sarvlock:before {
+  content: "\e98f";
+}
+.sarvlog-in:before {
+  content: "\e990";
+}
+.sarvlog-out:before {
+  content: "\e991";
+}
+.sarvmail:before {
+  content: "\e992";
+}
+.sarvmap:before {
+  content: "\e993";
+}
+.sarvmap-pin:before {
+  content: "\e994";
+}
+.sarvmaximize:before {
+  content: "\e995";
+}
+.sarvmaximize-2:before {
+  content: "\e996";
+}
+.sarvmeh:before {
+  content: "\e997";
+}
+.sarvmenu:before {
+  content: "\e998";
+}
+.sarvmessage-circle:before {
+  content: "\e999";
+}
+.sarvmessage-square:before {
+  content: "\e99a";
+}
+.sarvmic:before {
+  content: "\e99b";
+}
+.sarvmic-off:before {
+  content: "\e99c";
+}
+.sarvminimize:before {
+  content: "\e99d";
+}
+.sarvminimize-2:before {
+  content: "\e99e";
+}
+.sarvminus:before {
+  content: "\e99f";
+}
+.sarvminus-circle:before {
+  content: "\e9a0";
+}
+.sarvminus-square:before {
+  content: "\e9a1";
+}
+.sarvmonitor:before {
+  content: "\e9a2";
+}
+.sarvmoon:before {
+  content: "\e9a3";
+}
+.sarvmore-horizontal:before {
+  content: "\e9a4";
+}
+.sarvmore-vertical:before {
+  content: "\e9a5";
+}
+.sarvmouse-pointer:before {
+  content: "\e9a6";
+}
+.sarvmove:before {
+  content: "\e9a7";
+}
+.sarvmusic:before {
+  content: "\e9a8";
+}
+.sarvnavigation:before {
+  content: "\e9a9";
+}
+.sarvnavigation-2:before {
+  content: "\e9aa";
+}
+.sarvoctagon:before {
+  content: "\e9ab";
+}
+.sarvpackage:before {
+  content: "\e9ac";
+}
+.sarvpaperclip:before {
+  content: "\e9ad";
+}
+.sarvpause:before {
+  content: "\e9ae";
+}
+.sarvpause-circle:before {
+  content: "\e9af";
+}
+.sarvpen-tool:before {
+  content: "\e9b0";
+}
+.sarvpercent:before {
+  content: "\e9b1";
+}
+.sarvphone:before {
+  content: "\e9b2";
+}
+.sarvphone-call:before {
+  content: "\e9b3";
+}
+.sarvphone-forwarded:before {
+  content: "\e9b4";
+}
+.sarvphone-incoming:before {
+  content: "\e9b5";
+}
+.sarvphone-missed:before {
+  content: "\e9b6";
+}
+.sarvphone-off:before {
+  content: "\e9b7";
+}
+.sarvphone-outgoing:before {
+  content: "\e9b8";
+}
+.sarvpie-chart:before {
+  content: "\e9b9";
+}
+.sarvplay:before {
+  content: "\e9ba";
+}
+.sarvplay-circle:before {
+  content: "\e9bb";
+}
+.sarvplus:before {
+  content: "\e9bc";
+}
+.sarvplus-circle:before {
+  content: "\e9bd";
+}
+.sarvplus-square:before {
+  content: "\e9be";
+}
+.sarvpocket:before {
+  content: "\e9bf";
+}
+.sarvpower:before {
+  content: "\e9c0";
+}
+.sarvprinter:before {
+  content: "\e9c1";
+}
+.sarvradio:before {
+  content: "\e9c2";
+}
+.sarvrefresh-ccw:before {
+  content: "\e9c3";
+}
+.sarvrefresh-cw:before {
+  content: "\e9c4";
+}
+.sarvrepeat:before {
+  content: "\e9c5";
+}
+.sarvrewind:before {
+  content: "\e9c6";
+}
+.sarvrotate-ccw:before {
+  content: "\e9c7";
+}
+.sarvrotate-cw:before {
+  content: "\e9c8";
+}
+.sarvrss:before {
+  content: "\e9c9";
+}
+.sarvsave:before {
+  content: "\e9ca";
+}
+.sarvscissors:before {
+  content: "\e9cb";
+}
+.sarvsearch:before {
+  content: "\e9cc";
+}
+.sarvsend:before {
+  content: "\e9cd";
+}
+.sarvserver:before {
+  content: "\e9ce";
+}
+.sarvsettings:before {
+  content: "\e9cf";
+}
+.sarvshare:before {
+  content: "\e9d0";
+}
+.sarvshare-2:before {
+  content: "\e9d1";
+}
+.sarvshield:before {
+  content: "\e9d2";
+}
+.sarvshield-off:before {
+  content: "\e9d3";
+}
+.sarvshopping-bag:before {
+  content: "\e9d4";
+}
+.sarvshopping-cart:before {
+  content: "\e9d5";
+}
+.sarvshuffle:before {
+  content: "\e9d6";
+}
+.sarvsidebar:before {
+  content: "\e9d7";
+}
+.sarvskip-back:before {
+  content: "\e9d8";
+}
+.sarvskip-forward:before {
+  content: "\e9d9";
+}
+.sarvslack:before {
+  content: "\e9da";
+}
+.sarvslash:before {
+  content: "\e9db";
+}
+.sarvsliders:before {
+  content: "\e9dc";
+}
+.sarvsmartphone:before {
+  content: "\e9dd";
+}
+.sarvsmile:before {
+  content: "\e9de";
+}
+.sarvspeaker:before {
+  content: "\e9df";
+}
+.sarvsquare:before {
+  content: "\e9e0";
+}
+.sarvstar:before {
+  content: "\e9e1";
+}
+.sarvstop-circle:before {
+  content: "\e9e2";
+}
+.sarvsun:before {
+  content: "\e9e3";
+}
+.sarvsunrise:before {
+  content: "\e9e4";
+}
+.sarvsunset:before {
+  content: "\e9e5";
+}
+.sarvtablet:before {
+  content: "\e9e6";
+}
+.sarvtag:before {
+  content: "\e9e7";
+}
+.sarvtarget:before {
+  content: "\e9e8";
+}
+.sarvterminal:before {
+  content: "\e9e9";
+}
+.sarvthermometer:before {
+  content: "\e9ea";
+}
+.sarvthumbs-down:before {
+  content: "\e9eb";
+}
+.sarvthumbs-up:before {
+  content: "\e9ec";
+}
+.sarvtoggle-left:before {
+  content: "\e9ed";
+}
+.sarvtoggle-right:before {
+  content: "\e9ee";
+}
+.sarvtool:before {
+  content: "\e9ef";
+}
+.sarvtrash:before {
+  content: "\e9f0";
+}
+.sarvtrash-2:before {
+  content: "\e9f1";
+}
+.sarvtrello:before {
+  content: "\e9f2";
+}
+.sarvtrending-down:before {
+  content: "\e9f3";
+}
+.sarvtrending-up:before {
+  content: "\e9f4";
+}
+.sarvtriangle:before {
+  content: "\e9f5";
+}
+.sarvtruck:before {
+  content: "\e9f6";
+}
+.sarvtv:before {
+  content: "\e9f7";
+}
+.sarvtwitch:before {
+  content: "\e9f8";
+}
+.sarvtwitter:before {
+  content: "\e9f9";
+}
+.sarvtype:before {
+  content: "\e9fa";
+}
+.sarvumbrella:before {
+  content: "\e9fb";
+}
+.sarvunderline:before {
+  content: "\e9fc";
+}
+.sarvunlock:before {
+  content: "\e9fd";
+}
+.sarvupload:before {
+  content: "\e9fe";
+}
+.sarvupload-cloud:before {
+  content: "\e9ff";
+}
+.sarvuser:before {
+  content: "\ea00";
+}
+.sarvuser-check:before {
+  content: "\ea01";
+}
+.sarvuser-minus:before {
+  content: "\ea02";
+}
+.sarvuser-plus:before {
+  content: "\ea03";
+}
+.sarvuser-x:before {
+  content: "\ea04";
+}
+.sarvusers:before {
+  content: "\ea05";
+}
+.sarvvideo:before {
+  content: "\ea06";
+}
+.sarvvideo-off:before {
+  content: "\ea07";
+}
+.sarvvoicemail:before {
+  content: "\ea08";
+}
+.sarvvolume:before {
+  content: "\ea09";
+}
+.sarvvolume-1:before {
+  content: "\ea0a";
+}
+.sarvvolume-2:before {
+  content: "\ea0b";
+}
+.sarvvolume-x:before {
+  content: "\ea0c";
+}
+.sarvwatch:before {
+  content: "\ea0d";
+}
+.sarvwifi:before {
+  content: "\ea0e";
+}
+.sarvwifi-off:before {
+  content: "\ea0f";
+}
+.sarvwind:before {
+  content: "\ea10";
+}
+.sarvx:before {
+  content: "\ea11";
+}
+.sarvx-circle:before {
+  content: "\ea12";
+}
+.sarvx-octagon:before {
+  content: "\ea13";
+}
+.sarvx-square:before {
+  content: "\ea14";
+}
+.sarvyoutube:before {
+  content: "\ea15";
+}
+.sarvzap:before {
+  content: "\ea16";
+}
+.sarvzap-off:before {
+  content: "\ea17";
+}
+.sarvzoom-in:before {
+  content: "\ea18";
+}
+.sarvzoom-out:before {
+  content: "\ea19";
+}
