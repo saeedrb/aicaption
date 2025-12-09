@@ -20,7 +20,7 @@ const Footer = () => {
             <Icon icon="mail" prefix="sarv" />
             <span>info@example.com</span>
           </div>
-          <div>
+          <div className={styles.phone}>
             <Icon icon="phone" prefix="sarv" />
             <span>+98 912 345 6789</span>
           </div>

@@ -7,7 +7,7 @@ import Footer from '@/components/Sections/Footer/Footer';
 const Home: React.FC = () => {
   return (
     <div className={'pageWrapper'}>
-        <Navbar />s
+        <Navbar />
         <HomePageBanner />
         <Features />
         <Description />
