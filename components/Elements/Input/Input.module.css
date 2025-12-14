@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    width: 100%;
+}
+.container > label {
+    font-weight: 900;
+}
+.inputWrapper {
+    display: flex;
+    border: 1px solid var(--border-color-2);
+    width: 100%;
+    min-height: 46px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: all 0.5s;
+}
+.inputWrapper:focus-within {
+    border-color: var(--border-color-3);
+}
+.inputWrapper > input {
+    width: 100%;
+    font-size: 1rem;
+}
