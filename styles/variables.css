@@ -5,4 +5,14 @@
     --black: #000000;
 
     --bg-color-1: rgb(6, 141, 96);
+    --bg-color-2: rgb(0, 54, 36);
+    --bg-color-3: rgb(1, 125, 40);
+
+    --border-color-1: #dadada;
+    --border-color-2: #043200;
+    --border-color-3: #0ea300;
+
+    --text-color-1: #013906;
+    --text-color-2: #808080;
+    --text-color-3: #00c300;
 }
