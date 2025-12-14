@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
         <span className={styles.logoText}>خوشنویس</span>
       </div>
       <div className={styles.login}>
-        <Link href="/login" className={styles.loginLink}>
+        <Link href="/admin/auth" className={styles.loginLink}>
           <span> ورود / ثبت نام</span>
         </Link>
       </div>
